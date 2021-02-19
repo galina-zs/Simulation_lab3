@@ -12,8 +12,6 @@ namespace Lab2
 {
     public partial class Form1 : Form
     {
-        //decimal t = 0, x, y, v0, cosa, sina, S, m, k, vx, vy;
-        //double maxX, maxY;
         int time_after_start = 0;
         Formula formula;
 
@@ -44,24 +42,9 @@ namespace Lab2
                 pauseButton.Enabled = true;
                 continueButton.Enabled = false;
 
-                //FindMaximum();
-                //chart1.ChartAreas[0].AxisX.Maximum = maxX;
-                //chart1.ChartAreas[0].AxisY.Maximum = maxY;
-
                 timer1.Start();
             }
         }
-
-        //private void FindMaximum()
-        //{
-        //    double time = ((double)(v0 * sina) + Math.Sqrt((double)(v0 * v0 * sina * sina) + (double)(2 * g * heightNumericUpDown1.Value))) / (double)g;
-            
-        //    maxX = (double)(v0 * cosa) * time;
-        //    //maxX = Math.Ceiling(maxX) + 2;
-
-        //    maxY = (double)heightNumericUpDown1.Value + (double)(v0 * v0 * sina * sina) / (double)(2 * g);
-        //    //maxY = Math.Ceiling(maxY) + 2;
-        //}
 
         private void pauseButton_Click(object sender, EventArgs e)
         {

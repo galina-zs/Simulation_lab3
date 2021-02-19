@@ -228,6 +228,7 @@
             // 
             // sizeNumericUpDown
             // 
+            this.sizeNumericUpDown.DecimalPlaces = 2;
             this.sizeNumericUpDown.Location = new System.Drawing.Point(324, 22);
             this.sizeNumericUpDown.Name = "sizeNumericUpDown";
             this.sizeNumericUpDown.Size = new System.Drawing.Size(120, 20);
